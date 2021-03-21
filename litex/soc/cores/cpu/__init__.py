@@ -84,6 +84,7 @@ from litex.soc.cores.cpu.cv32e40p import CV32E40P
 # RISC-V (64-bit)
 from litex.soc.cores.cpu.rocket import RocketRV64
 from litex.soc.cores.cpu.blackparrot import BlackParrotRV64
+from litex.soc.cores.cpu.cva6 import CVA6
 
 # Zynq
 from litex.soc.cores.cpu.zynq7000 import Zynq7000
@@ -117,6 +118,7 @@ CPUS = {
     # RISC-V (64-bit)
     "rocket"      : RocketRV64,
     "blackparrot" : BlackParrotRV64,
+    "cva6" : CVA6,
 
     # Zynq
     "zynq7000"    : Zynq7000,
